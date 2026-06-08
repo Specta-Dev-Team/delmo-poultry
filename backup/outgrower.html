@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Out Grower Operations</title>
+    <script>
+      (function () {
+        if (typeof window.AxGetGlobalVar !== "function") {
+          window.AxGetGlobalVar = function (key) {
+            try {
+              if (window.parent && window.parent !== window && typeof window.parent.AxGetGlobalVar === "function") {
+                return window.parent.AxGetGlobalVar(key);
+              }
+            } catch (error) {
+              return "";
+            }
+
+            var stores = [window.AxGlobalVars, window.axGlobalVars, window.globalVars];
+            for (var index = 0; index < stores.length; index += 1) {
+              if (stores[index] && Object.prototype.hasOwnProperty.call(stores[index], key)) {
+                return stores[index][key];
+              }
+            }
+
+            return "";
+          };
+        }
+
+        if (typeof window.AxSetGlobalVar !== "function") {
+          window.AxSetGlobalVar = function (key, value) {
+            window.axGlobalVars = window.axGlobalVars || {};
+            window.axGlobalVars[key] = value;
+          };
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="outgrower.css" />
+  </head>
+  <body>
+    <main class="outgrower-page">
+      <section id="moduleCommand" class="module-command" aria-label="Out Grower entry actions"></section>
+
+      <section id="categoryFilterBar" class="category-filter-bar farmer-filter-bar" aria-label="Filter out grower houses by farmer">
+        <label class="farmer-select">
+          <span>Farmer</span>
+          <select id="farmerFilter" aria-label="Select farmer">
+            <option value="all">All</option>
+            <option value="farmer1">Farmer 1</option>
+            <option value="farmer2">Farmer 2</option>
+            <option value="farmer3">Farmer 3</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="houseGrid" class="house-grid" aria-label="Out grower houses"></section>
+      <section id="houseDetail" class="house-detail" aria-label="Out grower house detail" hidden></section>
+    </main>
+
+    <section id="tstructPanel" class="tstruct-panel" aria-hidden="true">
+      <div class="tstruct-shell">
+        <button class="icon-button tstruct-close" type="button" id="closeTstruct" aria-label="Close entry screen">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+        <iframe id="tstructFrame" name="tstructFrame" title="Axpert entry screen" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+    </section>
+
+    <script src="outgrower.js"></script>
+  </body>
+</html>
+
