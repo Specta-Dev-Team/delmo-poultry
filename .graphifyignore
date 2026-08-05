@@ -1,0 +1,9 @@
+node_modules/
+.git/
+.graphify/
+package-lock.json
+backup/
+docs/
+*.html
+*.xlsx
+*.md

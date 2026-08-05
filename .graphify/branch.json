@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "branchName": "main",
+  "worktreePath": "D:\\dev\\specta-git\\delmo-poultry",
+  "upstream": "origin/main",
+  "mergeBase": "4579b0c9b5a8c984555da630381e1625cee22724",
+  "firstSeenHead": "4579b0c9b5a8c984555da630381e1625cee22724",
+  "lastSeenHead": "4579b0c9b5a8c984555da630381e1625cee22724",
+  "lastAnalyzedHead": "4579b0c9b5a8c984555da630381e1625cee22724",
+  "stale": false,
+  "staleReason": null,
+  "staleSince": null,
+  "lifecycleEvent": null,
+  "createdAt": "2026-07-16T10:10:17.278Z",
+  "updatedAt": "2026-08-04T09:39:16.705Z"
+}

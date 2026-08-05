@@ -63,7 +63,7 @@ svg {
 }
 
 .parent-page,
-.hatchery-page {
+.setter-page {
   padding: 20px 20px 72px;
 }
 
@@ -452,23 +452,30 @@ svg {
 
 .house-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 372px));
-  justify-content: center;
-  gap: 16px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-content: stretch;
+  gap: 12px;
   align-items: stretch;
 }
 
 .house-card {
+  position: relative;
+  z-index: 0;
   min-height: 0;
   background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
   border: 1px solid #cfdbea;
   border-radius: var(--radius);
   box-shadow: 0 14px 34px rgba(25, 42, 70, 0.06);
-  padding: 16px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
   transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.house-card:has(details[open]),
+.house-card.menu-open {
+  z-index: 100;
 }
 
 .house-card:hover,
@@ -481,25 +488,32 @@ svg {
 .house-card > .command-button {
   width: 100%;
   margin-top: auto;
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 12px;
 }
 
 .house-card-header {
   position: relative;
   min-width: 0;
-  padding-right: 38px;
+  padding-right: 0;
   display: grid;
-  gap: 10px;
+  gap: 3px;
+}
+
+.house-card-copy {
+  min-width: 0;
 }
 
 .house-card h3 {
   margin: 0;
-  font-size: 18px;
-  line-height: 1.28;
-  max-width: 286px;
+  font-size: 13px;
+  line-height: 1.05;
+  max-width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 7px;
+  gap: 4px;
 }
 
 .house-code-pill {
@@ -507,18 +521,26 @@ svg {
   background: var(--tint-blue);
   border: 1px solid #cfe0ff;
   color: var(--blue-dark);
-  padding: 3px 7px;
-  font-size: 12px;
+  padding: 1px 5px;
+  font-size: 10px;
   font-weight: 600;
   line-height: 1;
 }
 
+.house-subline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 2px;
+}
+
 .house-card small {
-  display: block;
-  margin-top: 5px;
+  display: inline;
+  margin-top: 0;
   color: var(--muted);
-  font-size: 12px;
-  line-height: 1.35;
+  font-size: 10px;
+  line-height: 1;
 }
 
 .house-tools {
@@ -613,6 +635,7 @@ svg {
 }
 
 .card-menu .command-popover {
+  z-index: 110;
   min-width: 214px;
   width: 214px;
 }
@@ -620,19 +643,19 @@ svg {
 .metric-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  margin-top: 2px;
+  gap: 3px;
+  margin-top: 0;
 }
 
 .metric {
   --metric-accent: var(--accent-blue);
   --metric-tint: var(--tint-blue);
   --metric-border: #cfe0ff;
-  min-height: 66px;
+  min-height: 46px;
   border: 1px solid var(--metric-border);
   border-radius: 7px;
   background: linear-gradient(180deg, #ffffff 0%, var(--metric-tint) 155%);
-  padding: 9px 10px;
+  padding: 4px 6px;
   box-shadow: inset 3px 0 0 var(--metric-accent);
 }
 
@@ -668,17 +691,17 @@ svg {
 
 .metric span {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1;
 }
 
 .metric strong {
   display: block;
-  margin-top: 5px;
-  font-size: 13.5px;
+  margin-top: 1px;
+  font-size: 11px;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.02;
   overflow-wrap: anywhere;
 }
 
@@ -1155,7 +1178,7 @@ tbody tr:hover {
 
 @media (max-width: 620px) {
   .parent-page,
-  .hatchery-page {
+  .setter-page {
     padding: 16px 14px 48px;
   }
 
@@ -1216,3 +1239,42 @@ tbody tr:hover {
     padding: 10px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

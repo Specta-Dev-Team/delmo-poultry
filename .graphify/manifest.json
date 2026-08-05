@@ -1,0 +1,346 @@
+{
+  "D:/dev/specta-git/delmo-poultry/backup/breeder.js": {
+    "mtime": 1780978715790.8813,
+    "hash": "b73c5e1f9120b1629dd111603229e4ee"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/broiler.js": {
+    "mtime": 1780978715803.3467,
+    "hash": "f7b7f91e09f4d5a265f3fded7953743a"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/grandparent.js": {
+    "mtime": 1781764441016.0667,
+    "hash": "3806f582752ee89fdecb176f4c8dc875"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/hatchery.js": {
+    "mtime": 1780978715806.8618,
+    "hash": "daa2707cc5a5776e8a9f1c578020922d"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/outgrower.js": {
+    "mtime": 1780978715806.8618,
+    "hash": "b4004f466bda6b17d3245da491147121"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/parent copy.js": {
+    "mtime": 1781764441020.5845,
+    "hash": "088b565a8acb442c222b0d064427889d"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/parent.js": {
+    "mtime": 1783404653017.467,
+    "hash": "4959a1637fea4158d6517baa038c3186"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/setter.js": {
+    "mtime": 1780978715806.8618,
+    "hash": "e08a57d2048d8089c83e9f09914a2b29"
+  },
+  "D:/dev/specta-git/delmo-poultry/broiler.js": {
+    "mtime": 1785823138428.0393,
+    "hash": "c924cbe555f1c82be231b6cd23140c78"
+  },
+  "D:/dev/specta-git/delmo-poultry/grandparent.js": {
+    "mtime": 1785822450873.4116,
+    "hash": "7595530fdf06afd328ec107771620810"
+  },
+  "D:/dev/specta-git/delmo-poultry/layers.js": {
+    "mtime": 1785823283081.8176,
+    "hash": "24992b81149da414c7c984449e1b4a98"
+  },
+  "D:/dev/specta-git/delmo-poultry/outgrower.js": {
+    "mtime": 1785836344137.0867,
+    "hash": "909edc44152648c56915f56389e328fc"
+  },
+  "D:/dev/specta-git/delmo-poultry/parent.js": {
+    "mtime": 1785822252239.1687,
+    "hash": "5006e170b6e1fb65e2121fa21d30e423"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/app-data.test.mjs": {
+    "mtime": 1780978715806.8618,
+    "hash": "c67a0b0460cfd78d24eedefd06177dd0"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/browser-module-path.test.mjs": {
+    "mtime": 1780978715806.8618,
+    "hash": "8e39cd8441576e0721c9a4f416bd2dee"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-datasource-pattern.test.mjs": {
+    "mtime": 1783070842588.9915,
+    "hash": "f9c3f9eda8d604391411d026638b3c0a"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-actions-targetparams.test.mjs": {
+    "mtime": 1785218863108.8728,
+    "hash": "7839742e1020f49fd7935a4fcd17467c"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-activity-section.test.mjs": {
+    "mtime": 1783630261494.2417,
+    "hash": "f16e2bf014708aa66bf64c9953d4cb97"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-farmer-grouping.test.mjs": {
+    "mtime": 1783627444542.2544,
+    "hash": "d7ecce57cccb2d94404c2838c1f1253d"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-datasource-normalization.test.mjs": {
+    "mtime": 1785817423676.573,
+    "hash": "150f0e228c1febf37b7719e71f108cf8"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-global-context.test.mjs": {
+    "mtime": 1782988309124.7715,
+    "hash": "1d225e5657c69042c85df63eb5c73683"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-house-flow.test.mjs": {
+    "mtime": 1783052418090.4937,
+    "hash": "efb9d2451443c4dcd7244fe08b52f5ef"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-house-loading.test.mjs": {
+    "mtime": 1783055788145.8823,
+    "hash": "465fcc6e3f03029cf3b6354bdfc627f0"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-html-asset-loading.test.mjs": {
+    "mtime": 1781764441025.5674,
+    "hash": "275e591a36ec21c83d103224f9d97c91"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-no-mock-data.test.mjs": {
+    "mtime": 1782990842359.9338,
+    "hash": "a5126f199a7eeac85cb583d0cf98fda7"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-reload.test.mjs": {
+    "mtime": 1783056029587.076,
+    "hash": "172d82efe225392af2ca3e8d963ea1e5"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-tstruct-opening.test.mjs": {
+    "mtime": 1784200104034.0405,
+    "hash": "e8eb7846150c6ff660dd75c497bab1ae"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/placement-batch-prefill-safety.test.mjs": {
+    "mtime": 1784194377193.0676,
+    "hash": "ae124c95abd3234c9f3bf92bc952fa55"
+  },
+  "D:/dev/specta-git/delmo-poultry/axpert_custom_screen_js_reference.md": {
+    "mtime": 1781764441012.08,
+    "hash": "55f51de2bc01cf1327881df56c430e3a"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/breeder.html": {
+    "mtime": 1780978715790.8813,
+    "hash": "708e138c1deabb8918b7d9b2e2f7b087"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/broiler.html": {
+    "mtime": 1780978715803.3467,
+    "hash": "1ec70fc773690a0ca48c9a3788884431"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/grandparent.html": {
+    "mtime": 1781764441015.0698,
+    "hash": "df0c001365cc9e35895c235c728e92f1"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/hatchery.html": {
+    "mtime": 1780978715806.8618,
+    "hash": "f5fab21b00e1d79084ba3757d9b6e77c"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/outgrower.html": {
+    "mtime": 1780978715806.8618,
+    "hash": "c6455965d8f7fdd80bd09f69f8b311fc"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/parent.html": {
+    "mtime": 1781764440650.05,
+    "hash": "7da2c2ba82c66a5985c06eb3cf497056"
+  },
+  "D:/dev/specta-git/delmo-poultry/backup/setter.html": {
+    "mtime": 1780978715806.8618,
+    "hash": "8d4d5cb6c86c673a1416a8d831327158"
+  },
+  "D:/dev/specta-git/delmo-poultry/broiler.html": {
+    "mtime": 1784178310257.3213,
+    "hash": "02adfe99df8a85f8855c727c65e852d9"
+  },
+  "D:/dev/specta-git/delmo-poultry/docs/poultry-dashboard-research-design-prompt.md": {
+    "mtime": 1780978715806.8618,
+    "hash": "3bb624b2f8cf26a9ccbce8aa655ec440"
+  },
+  "D:/dev/specta-git/delmo-poultry/docs/superpowers/plans/2026-07-02-parent-js-simplification.md": {
+    "mtime": 1782988102912.8792,
+    "hash": "00bd1364b95629114a71efb90a887475"
+  },
+  "D:/dev/specta-git/delmo-poultry/grandparent.html": {
+    "mtime": 1784181643344.2185,
+    "hash": "8884ee370f44cd32215b48af16bfe3ed"
+  },
+  "D:/dev/specta-git/delmo-poultry/layers.html": {
+    "mtime": 1783670790594.3806,
+    "hash": "28d589d4f6f8b470486c898c5dba3a50"
+  },
+  "D:/dev/specta-git/delmo-poultry/outgrower.html": {
+    "mtime": 1784181498060.6006,
+    "hash": "de84970e5dcc2741bf1999e1efb1c81a"
+  },
+  "D:/dev/specta-git/delmo-poultry/parent.html": {
+    "mtime": 1784178183488.8223,
+    "hash": "f0f36a9f937e147d043178a0437f3402"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/card-menu-stacking.test.mjs": {
+    "mtime": 1784196496516.7676,
+    "hash": "92e5a1441d9836b5d472f29de4cea62d"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/live-birds-totalbirds-mapping.test.mjs": {
+    "mtime": 1784198425142.5876,
+    "hash": "8c26b78360bdedab6b154d7292335efc"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/detail-context-tiles.test.mjs": {
+    "mtime": 1784199178187.4233,
+    "hash": "725edfbc3492a145e887c0fac603208f"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-mortality-prefill.test.mjs": {
+    "mtime": 1784200136973.6357,
+    "hash": "112239725cbcc241cf6b91688b8612ab"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-placementdone-actions.test.mjs": {
+    "mtime": 1784200956112.9404,
+    "hash": "d5dc278bf97386fc5759028a04096344"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/hatchery-and-egg-allotment-ui.test.mjs": {
+    "mtime": 1784201983611.9204,
+    "hash": "264d6bdac035f945b9c43c2bf774e8f8"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-house-loading.test.mjs": {
+    "mtime": 1784203466771.3474,
+    "hash": "45315a70ea3568062fc9dcc780b78b82"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/axpert-html-asset-loading.test.mjs": {
+    "mtime": 1784205032721.738,
+    "hash": "00858666338db0b7dd7d5cd8350501c5"
+  },
+  "D:/dev/specta-git/delmo-poultry/hatchery.js": {
+    "mtime": 1785211798048.7993,
+    "hash": "7797304f762886ca9e30930be8feea54"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-day-end-action.test.mjs": {
+    "mtime": 1784248124684.9778,
+    "hash": "6555099c6adeb5bbc26f18bcb9c6c315"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/layers-day-end-and-placementdone-actions.test.mjs": {
+    "mtime": 1784250172008.5168,
+    "hash": "6677e0af6a77a162bb5e9b6cd9362422"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-day-end-and-placementdone-actions.test.mjs": {
+    "mtime": 1784251807665.6921,
+    "hash": "47e3c653889f2bc33138e320def460cc"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-day-end-and-placementdone-actions.test.mjs": {
+    "mtime": 1784252707957.1497,
+    "hash": "8adc560cc365049b5ab8ede23829507a"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-harvest-ready-action.test.mjs": {
+    "mtime": 1785218862496.486,
+    "hash": "3dc8c07c6781248854fba5366304fd4d"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-environment-lighting-actions.test.mjs": {
+    "mtime": 1784782775817.6133,
+    "hash": "7d911914bb33dc06697a3c83656a3328"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-schedule-completed-lock.test.mjs": {
+    "mtime": 1784784176002.3079,
+    "hash": "5984d727b4238ac095be40a00cf26956"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-schedule-completed-lock.test.mjs": {
+    "mtime": 1784784709767.7852,
+    "hash": "a0a958539745554f9ba9201cb71ee896"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/hatchery-egg-allotment-action.test.mjs": {
+    "mtime": 1784785460250.1904,
+    "hash": "8cab2a483a1081f559c04feb2e747712"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/hatchery-material-consumption-menu.test.mjs": {
+    "mtime": 1784786267142.412,
+    "hash": "116b7fabd74d95324737e658f3dcd1dc"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-chart-datasource.test.mjs": {
+    "mtime": 1785212188169.464,
+    "hash": "956245ef4c2357cb58a2a26465062815"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-gendered-bird-metrics.test.mjs": {
+    "mtime": 1785213086231.9568,
+    "hash": "b88dbb896dbedd99e8711550b0c99e7d"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-live-bird-transfer-request.test.mjs": {
+    "mtime": 1785835896271.716,
+    "hash": "352ba02ba10030babc089b73f4d3c56f"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-transfer-card-state.test.mjs": {
+    "mtime": 1785231836861.295,
+    "hash": "7a7a2649439ab0909f7d0ed8c0d95088"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-bird-count-metric-style.test.mjs": {
+    "mtime": 1785219222907.6528,
+    "hash": "15c4be460bbd171467abea5ca2c50894"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-house-loading-performance.test.mjs": {
+    "mtime": 1785224285121.4487,
+    "hash": "ec0c3da040e8a34b69e0ae2fbdea0f93"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-loading-indicator.test.mjs": {
+    "mtime": 1785222212988.8706,
+    "hash": "3b883f5364bdd10b83624e4ba7a4e66a"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-initial-load-performance.test.mjs": {
+    "mtime": 1785222007180.7778,
+    "hash": "57dbbbddc9139e88ceb9fbfc384a35ee"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-axpert-script-loading.test.mjs": {
+    "mtime": 1785222882312.379,
+    "hash": "72700e0382b87b3beaa65ee44e9ed3d0"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/layers-bird-count-total.test.mjs": {
+    "mtime": 1785227820639.3845,
+    "hash": "fa753d16977ab5f9a1b1458e6290d7ea"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-bird-count-total.test.mjs": {
+    "mtime": 1785228122002.574,
+    "hash": "15701917fd83b853fc39517f5783e17d"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-hatcher-transfer-action.test.mjs": {
+    "mtime": 1785228340766.6638,
+    "hash": "9124f7335d9f337879563f57551f9577"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-ready-transfer-action.test.mjs": {
+    "mtime": 1785822242239.955,
+    "hash": "58fef1dda471974843bd37c9a5487151"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/layers-environment-lighting-actions.test.mjs": {
+    "mtime": 1785741097418.108,
+    "hash": "d1a000d1fdeabebfc12eae47b77bec13"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-placement-context-prefill.test.mjs": {
+    "mtime": 1785759102079.8845,
+    "hash": "5230b37376b1117542fb64215db99ad1"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/parent-placement-context-prefill.test.mjs": {
+    "mtime": 1785759088439.9402,
+    "hash": "f978a9990ecd66fe99a96333b9a08682"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-placement-context-prefill.test.mjs": {
+    "mtime": 1785759747642.6904,
+    "hash": "2d44a92e14c3a40bf5e271410f7e6ca1"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/layers-placement-batch-prefill.test.mjs": {
+    "mtime": 1785759400911.0938,
+    "hash": "fe896dee36bc299bed7ddbe21db269fb"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-ready-transfer-action.test.mjs": {
+    "mtime": 1785822442132.9976,
+    "hash": "0cbebe440055c87102e0d7777de95bda"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/layers-ready-transfer-action.test.mjs": {
+    "mtime": 1785823270294.2456,
+    "hash": "fb2ba07ec72e1ce8867152a5d9f55bcf"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-ready-harvest-action.test.mjs": {
+    "mtime": 1785823130120.8054,
+    "hash": "8a500d3e77245eb35b5718b8e62e0ceb"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/grandparent-gendered-bird-metrics.test.mjs": {
+    "mtime": 1785817944124.0952,
+    "hash": "bfbacc198a0e653dd324794d6980b36a"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/broiler-date-format.test.mjs": {
+    "mtime": 1785818411888.2815,
+    "hash": "f1e093840f7b0fb5fcf5787bb68d4bef"
+  },
+  "D:/dev/specta-git/delmo-poultry/tests/outgrower-date-format.test.mjs": {
+    "mtime": 1785836329226.384,
+    "hash": "310276a119b46fc78e05f3ad597883ff"
+  }
+}

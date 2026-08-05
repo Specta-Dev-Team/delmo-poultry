@@ -1,0 +1,5 @@
+# Graphify generated cache
+.graphify/cache/
+
+# Node.js dependencies
+node_modules/
